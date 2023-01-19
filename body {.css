@@ -1,0 +1,27 @@
+body {
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+  animation: text-fade-in 2s;
+}
+
+p {
+  font-size: 18px;
+  color: #555;
+  animation: text-fade-in 2s;
+}
+
+@keyframes text-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
